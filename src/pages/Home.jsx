@@ -1,5 +1,5 @@
 import React from 'react'
-import { Featured, Header, List, Navbar } from '../components'
+import { Featured, Header, List, Navbar, Properylists } from '../components'
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
     <Header /> 
     <Featured />
     <List />
+    <Properylists />
     </>
   )
 }

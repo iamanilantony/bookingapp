@@ -4,31 +4,31 @@ import styledComponents from 'styled-components'
 const Container = styledComponents.div`
    margin-top: 60px;
    display: flex;
-   align-items: center;
    justify-content: center;
    
 `
 const Wrapper = styledComponents.div`
     display: flex;
     width: 80%;
-
-  
+    justify-content: center;  
 `
 const ImageContainer = styledComponents.div`
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
     margin: 25px 40px 25px 0;
     position: relative;
     transition: 0.5s ease;
-    &:hover{
-        transform: scale(1.05);
-    }
+    border-radius: 20px;
+    overflow: hidden;
+   
 `
 const Img = styledComponents.img`
     width: 350px;
     height: 250px;
-    border-radius: 20px;
+    
+    transition: 0.5s ease;
+    &:hover{
+        transform: scale(1.05);
+    }
 `
 const TitleContainer = styledComponents.div`
     color: white;
