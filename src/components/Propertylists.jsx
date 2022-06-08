@@ -9,14 +9,16 @@ const Wrapper = styledComponents.div`
     flex-direction: column;
     width: 80%;
     justify-content: center;
+    align-items: center;
 `
 const Header = styledComponents.div`
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
 `
 const H1 = styledComponents.div`
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
 `
 const Rows = styledComponents.div`
     
@@ -25,10 +27,16 @@ const Rowitems = styledComponents.div`
     display: flex;
 `
 const Item = styledComponents.div`
-    
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    padding: 20px;
 `
 const Imgcontainer = styledComponents.div`
-    
+    width: 100%;
+    height: 160px;
+    display: flex;
+    overflow: hidden;
 `
 const Img = styledComponents.img`
     
