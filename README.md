@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# A Room booking app crated using react and mern stack
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
