@@ -3,22 +3,23 @@ import styledComponents from "styled-components"
 const Container = styledComponents.div`
     margin-top: 3vh;
     display: flex;
+    width: 98vw;
+    justify-content: center;
 `
 const Wrapper = styledComponents.div`
     display: flex;
     flex-direction: column;
-    width: 80%;
-    justify-content: center;
-    align-items: center;
+    width: 80vw;
+    align-items: right;
+    overflow: hidden;
 `
 const Header = styledComponents.div`
     display: flex;
-    justify-content: center;
-    align-items: center;
 `
 const H1 = styledComponents.div`
     font-size: 25px;
     font-weight: 600;
+    margin-left: 15px;
 `
 const Rows = styledComponents.div`
     
@@ -33,19 +34,31 @@ const Item = styledComponents.div`
     padding: 20px;
 `
 const Imgcontainer = styledComponents.div`
-    width: 100%;
-    height: 160px;
+    width: 17vw;
+    height: 25vh;
     display: flex;
     overflow: hidden;
+    border-radius: 10px;
 `
 const Img = styledComponents.img`
-    
+    width: 17vw;
+    height: 25vh;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    &: hover {
+        transform: scale(1.05);
+
+    }
 `
 const ItemTitle = styledComponents.span`
-    
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
 `
 const Itemplace = styledComponents.span`
-    
+    font-size: 16px;
+    color: gray;
+    padding-top: 5px;
 `
 const Itemprice = styledComponents.span`
     
